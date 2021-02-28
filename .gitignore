@@ -1,0 +1,27 @@
+# Globally ignored folder names
+node_modules
+coverage
+.nyc_output
+build
+/lib/
+bin
+obj
+
+# Logs
+*.log
+
+# IDE specific
+/.vscode
+/.vs
+.idea
+
+# Package stuff
+packages/**/lib
+packages/**/dist
+
+# Typescript
+*.tsbuildinfo
+
+# NEO
+*.neo-express.json
+*.neo-wallet.json
